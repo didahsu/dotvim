@@ -15,12 +15,12 @@ Switch to the '~/.vim' directory, and fetch submodules:
 
 add the new pluging
 
-cd ~/.vim
-git submodule add https://github.com/Lokaltog/vim-powerline bundle/powerline
-git add . 
-git commit -m "Install Powerline.vim bundle as a submodule."
-git push
-git pull
+	cd ~/.vim
+	git submodule add https://github.com/Lokaltog/vim-powerline bundle/powerline
+	git add . 
+	git commit -m "Install Powerline.vim bundle as a submodule."
+	git push
+	git pull
 
 Clone to another computer
 	
