@@ -1,14 +1,14 @@
 ##Installation:
 
 	$ git clone git://github.com/didahsu/dotvim.git ~/.vim
-	$ 
+
 ##Create symlinks:
-	$ 
+
 	$ ln -s ~/.vim/vimrc ~/.vimrc
 	$ ln -s ~/.vim/gvimrc ~/.gvimrc
 
 ##Switch to the '~/.vim' directory, and fetch submodules:
-	$ 
+	 
 	$ cd ~/.vim
 	$ git submodule init
 	$ git submoduel update
@@ -23,7 +23,7 @@
 	$ git pull
 
 ##Clone to another computer
-	$ 
+	 
 	$ cd ~
 	$ git clone http://github.com/didahsu/dotvim.git ~/.vim
 	$ ln -s ~/.vim/vimrc ~/.vimrc

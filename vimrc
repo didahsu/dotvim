@@ -8,3 +8,4 @@ let g:Powerline_symbols = 'unicode'
 syntax on
 filetype plugin indent on
 set number
+colorscheme railscasts
