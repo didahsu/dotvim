@@ -13,7 +13,7 @@
 	$ git submodule init
 	$ git submoduel update
 
-##Add the new pluging
+##Add the new plugin
 
 	$ cd ~/.vim
 	$ git submodule add https://github.com/Lokaltog/vim-powerline bundle/powerline
@@ -21,6 +21,16 @@
 	$ git commit -m "Install Powerline.vim bundle as a submodule."
 	$ git push
 	$ git pull
+
+##Remove the plugin
+	
+	$ git rm --cached [plugin directory]
+	$ rm -rf [plugin directory]
+	$ vim .gitmodules  //remove the plugin setting
+	$ vim .git/config //remove the plugin setting
+	$ git add .gitmodules
+	$ git commit -m "Remove a submodule"
+	$ git submodule sync
 
 ##Clone to another computer
 	 
