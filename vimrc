@@ -7,6 +7,8 @@ set number "顯示行號
 syntax on "語法高亮
 filetype plugin indent on "自動識別檔案類型
 colorscheme railscasts "顏色配置模式
+set tabstop = 4 "設定tab建的寬度
 let g:Powerline_symbols = 'unicode' "Powerline 設定
 set laststatus=2 "狀態列設定 0：永不顯示 1：兩個視窗以上顯示 2：永遠顯示
 map <F2> <plug>NERDTreeTabsToggle<CR>
+
