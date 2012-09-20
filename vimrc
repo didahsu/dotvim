@@ -20,4 +20,6 @@ set foldlevel =10
 let g:Powerline_symbols = 'unicode' "Powerline 設定
 set laststatus=2 "狀態列設定 0：永不顯示 1：兩個視窗以上顯示 2：永遠顯示
 map <F2> <plug>NERDTreeTabsToggle<CR>
-
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
