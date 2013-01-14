@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/didahsu/workspace/rails_project/sample_app'
+let g:netrw_dirhist_2='/Users/didahsu/workspace/rails_project/sample_app/app/controllers'
+let g:netrw_dirhist_3='/Users/didahsu/workspace/rails_project/Sample_app/app/views/layouts'
+let g:netrw_dirhist_4='/Users/didahsu/workspace/rails_project/things_i_bought/config'
