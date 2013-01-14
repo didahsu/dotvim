@@ -52,3 +52,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-cucumber-align-pipes"]
+	path = bundle/vim-cucumber-align-pipes
+	url = https://github.com/quentindecock/vim-cucumber-align-pipes.git
