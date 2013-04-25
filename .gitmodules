@@ -55,3 +55,6 @@
 [submodule "bundle/vim-cucumber-align-pipes"]
 	path = bundle/vim-cucumber-align-pipes
 	url = https://github.com/quentindecock/vim-cucumber-align-pipes.git
+[submodule "bundle/vim-indent-guides"]
+	path = bundle/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
