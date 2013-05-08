@@ -49,4 +49,13 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=darkgrey
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
+"indent
 map <F3> <leader>ig
+
+"mutil_cursor_use_default_mapping
+let g:multi_cursor_use_default_mapping = 0
+let g:multi_cursor_next_key = '<C-n>'
+let g:multi_cursor_prev_key = '<C-p'
+let g:multi_cursor_skip_key = '<C-x>'
+let g:multi_cursor_quit_key = '<Esc>'
+let g:multi_cursor_start_key = '<F6>'
